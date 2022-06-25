@@ -16,6 +16,7 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
 cd openwrt/package
 git clone https://github.com/BROBIRD/openwrt-r8168.git
 git clone https://github.com/jerrykuku/luci-theme-argon.git
